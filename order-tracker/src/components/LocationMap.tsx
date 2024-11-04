@@ -1,10 +1,8 @@
-// components/LocationMap.tsx
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { Icon } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
-// Define the custom icon
 const customIcon = new Icon({
   iconUrl: '/marker-icon.png',
   shadowUrl: '/marker-shadow.png',
